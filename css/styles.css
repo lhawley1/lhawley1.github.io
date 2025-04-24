@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0 auto;
+}
+header{
+    background-color: rgb(111, 173, 215);
+    position: relative;
+    padding: 10px;
+}
+.main-part-header{
+    display: inline-block;
+}
+h1{
+    color: white;
+    position: absolute;
+    left: 285px;
+    top: 90px;
+    font-size: 3.7em;
+    font-family: "New Amsterdam", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+img{
+    border: solid;
+    border-color: rgb(19, 41, 75);
+    border-width: 5px;
+}
+.secondary-part-header{
+    color: white;
+}
+h2{
+    display: inline-block;
+    position: absolute;
+    left: 288px;
+    top: 162px;
+    font-size: 2.2em;
+    font-family: "New Amsterdam", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h3{
+    display: inline-block;
+    position: absolute;
+    left: 530px;
+    top: 171px;
+    font-size: 1.6em;
+    font-family: "New Amsterdam", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h4{
+    color: white;
+    top: 90px;
+    font-size: 3.7em;
+    font-family: "New Amsterdam", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.linkbar{
+    background-color: rgb(19, 41, 75);
+    text-align: right;
+    position: relative;
+}
+.linkbar li{
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+.linkbar a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-family: "New Amsterdam", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.linkbox a:hover, .linkbox a:focus{
+    background-color: rgb(111, 173, 215);
+    color: white;
+    text-decoration: underline;
+}
+#schedule{
+    margin-right: 20px;
+}
+#GOHEELS{
+    position: absolute;
+    left: 2px;
+    font-size: 2rem;
+    color: white;
+    font-family: "New Amsterdam", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+main{
+    height: 80vh;
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.gameinfotitle{
+    padding-left: 50px;
+    font-family: "New Amsterdam", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5em;
+}
+.middlebox{
+    border: solid;
+    border-color: rgb(111, 173, 215);
+    border-width: 10px;
+    display: block;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: 43px;
+    margin-left: 43px;
+    margin-bottom: 50px;
+    font-family: "Roboto Condensed", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 1.5em;
+}
+footer{
+    background-color: rgb(19, 41, 75);
+    text-align: center;
+    color: white;
+    padding: 40px;
+}
